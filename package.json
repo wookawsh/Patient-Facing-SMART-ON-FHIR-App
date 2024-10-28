@@ -1,0 +1,28 @@
+{
+  "name": "smart-on-fhir-app",
+  "version": "1.0.0",
+  "main": "setup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i ./public/styles.css -o ./public/output.css --watch",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "fhirclient": "^2.5.4",
+    "openai": "^4.68.4",
+    "postcss": "^8.4.47",
+    "session-file-store": "^1.5.0",
+    "tailwindcss": "^3.4.14"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
